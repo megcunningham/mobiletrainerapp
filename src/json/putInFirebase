@@ -1,0 +1,25 @@
+From any page with jquery loaded use the console
+
+1. change new line characters to \n
+2. `var x = JSON.parse(...paste JSON here...)`
+
+3.
+```
+Object.keys(x).forEach(function (workout) {
+  $
+    .post('https://mobiletrainerapp.firebaseio.com/admin/users/targetgroup/back.json', JSON.stringify({WORKOUT: workout}))
+    .success(function(res){
+      var url = 'https://mobiletrainerapp.firebaseio.com/admin/users/targetgroup/back/' + res.name + '/EXERCISES.json';
+  
+      x[workout].forEach(function (ex) {
+        $.post(url, JSON.stringify(ex))
+      });
+    });
+});
+```
+
+$.post('https://mobiletrainerapp.firebaseio.com/admin/users/targetgroup/shoulders.json', JSON.stringify({WORKOUT: x.WORKOUT})).success(function(res){
+  var url = 'https://mobiletrainerapp.firebaseio.com/admin/users/targetgroup/shoulders/' + res.name + '.json';
+  x.EXERCISES.forEach(function (ex) {
+    $.post(url, JSON.stringify(ex))
+  })

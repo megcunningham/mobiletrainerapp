@@ -1,0 +1,285 @@
+
+/* Login and Register */
+
+.login-form h2 {
+	font-family: 'Special Elite', cursive;
+	text-shadow: 2px 2px lightgrey;
+	text-align: center;
+}
+
+.reg-form h5 {
+	font-family: 'Special Elite', cursive;
+	color: rgb(224, 0, 0);
+}
+
+.login-form label {
+	font-family: 'Special Elite';
+}
+
+
+.reg-form label {
+	font-family: 'Special Elite', cursive;
+	
+}
+
+.reg-form button {
+	color: black ;
+	border-color: black;
+	font-family: 'Special Elite', cursive;
+	border-width: 2px;
+	background-color: lightgrey;
+}
+
+.reg-clicker {
+	color: black;
+	font-size: 25px;
+	font-family: 'Special Elite', cursive;
+	text-shadow: 2px 2px lightgrey;
+}
+
+.login-form button {
+	color: black ;
+	border-color: black;
+	border-width: 2px;
+	font-family: 'Special Elite', cursive;
+	text-shadow: 1px 1px white;
+	background-color: lightgrey;
+}
+
+.login-header {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 1px 1px rgb(224, 0,0);
+}
+
+.password-link {
+	font-family: 'Special Elite', cursive;
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/* training index page */
+
+.training-body {
+	background-color: gainsboro;
+}
+
+.training-img img {
+	box-shadow: 4px 4px 2px black;
+}
+
+.training-buttons a {
+	color: rgb(184, 0, 0);
+	text-shadow: 2px 1px black;
+	border-color: dimgrey;
+	border-width: 2px;
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	/*background-color: gainsboro;*/
+	text-align: center;
+	margin: 15px;
+	box-shadow: 4px 4px 2px black;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: block;
+    background-image: url('https://files.slack.com/files-pri/T03F2SDTJ-F076HA2G0/black-diamond-plate.jpg');
+}
+
+
+/* Arms page */
+
+.arm-body {
+	background-color: gainsboro;
+	width: auto;
+}
+
+.arms-list-btn {
+	border-width: 2px;
+	text-shadow: 1px 1px white;
+	text-align: center;
+	color: rgb(184, 0, 0);
+	text-shadow: 2px 1px black;
+	border-color: dimgrey;
+	border-width: 2px;
+	font-family: 'Anton', sans-serif;
+	font-size: 35px;
+	background-color: white;
+	margin: 15px;
+	box-shadow: 4px 4px 2px black;
+	background-image: url('https://files.slack.com/files-pri/T03F2SDTJ-F076HA2G0/black-diamond-plate.jpg');
+
+}
+
+.arm-ul li {
+	list-style-type: none;
+}
+
+.arm-header {
+	color: rgb(184, 0, 0);
+	font-family: 'Special Elite', cursive;
+	text-shadow: 2px 1px black;
+	text-align: center;
+	/*font-family: 'Anton', sans-serif;*/
+
+}
+
+/* back page */
+
+.back-body {
+/*	background-color: gainsboro;*/
+}
+
+.back-list-btn {
+	border-width: 2px;
+	text-shadow: 1px 1px white;
+	text-align: center;
+	color: rgb(184, 0, 0);
+	text-shadow: 2px 1px black;
+	border-color: dimgrey;
+	border-width: 2px;
+	font-family: 'Anton', sans-serif;
+	font-size: 35px;
+	background-color: white;
+	margin: 15px;
+	box-shadow: 4px 4px 2px black;
+	background-image: url('https://files.slack.com/files-pri/T03F2SDTJ-F076HA2G0/black-diamond-plate.jpg');
+
+}
+
+.back-ul li {
+	list-style-type: none;
+}
+
+.back-header {
+	color: rgb(184, 0, 0);
+	font-family: 'Special Elite', cursive;
+	text-shadow: 2px 1px black;
+	text-align: center;
+	/*font-family: 'Anton', sans-serif;*/
+
+}
+
+/* chest page */
+
+.chest-list-btn {
+	border-width: 2px;
+	text-shadow: 1px 1px white;
+	text-align: center;
+	color: rgb(184, 0, 0);
+	text-shadow: 2px 1px black;
+	border-color: dimgrey;
+	border-width: 2px;
+	font-family: 'Anton', sans-serif;
+	font-size: 35px;
+	background-color: white;
+	margin: 15px;
+	box-shadow: 4px 4px 2px black;
+	background-image: url('https://files.slack.com/files-pri/T03F2SDTJ-F076HA2G0/black-diamond-plate.jpg');
+
+}
+
+.chest-ul li {
+	list-style-type: none;
+}
+
+.chest-header {
+	color: rgb(184, 0, 0);
+	font-family: 'Special Elite', cursive;
+	text-shadow: 2px 1px black;
+	text-align: center;
+	/*font-family: 'Anton', sans-serif;*/
+
+}
+
+/* leg page */
+
+.leg-list-btn {
+	border-width: 2px;
+	text-shadow: 1px 1px white;
+	text-align: center;
+	color: rgb(184, 0, 0);
+	text-shadow: 2px 1px black;
+	border-color: dimgrey;
+	border-width: 2px;
+	font-family: 'Anton', sans-serif;
+	font-size: 35px;
+	background-color: white;
+	margin: 15px;
+	box-shadow: 4px 4px 2px black;
+	background-image: url('https://files.slack.com/files-pri/T03F2SDTJ-F076HA2G0/black-diamond-plate.jpg');
+
+}
+
+.leg-ul li {
+	list-style-type: none;
+}
+
+.leg-header {
+	color: rgb(184, 0, 0);
+	font-family: 'Special Elite', cursive;
+	text-shadow: 2px 1px black;
+	text-align: center;
+	/*font-family: 'Anton', sans-serif;*/
+
+}
+
+/* shoulder page */
+
+.shoulder-list-btn {
+	border-width: 2px;
+	text-shadow: 1px 1px white;
+	text-align: center;
+	color: rgb(184, 0, 0);
+	text-shadow: 2px 1px black;
+	border-color: dimgrey;
+	border-width: 2px;
+	font-family: 'Anton', sans-serif;
+	font-size: 35px;
+	background-color: white;
+	margin: 15px;
+	box-shadow: 4px 4px 2px black;
+	background-image: url('https://files.slack.com/files-pri/T03F2SDTJ-F076HA2G0/black-diamond-plate.jpg');
+
+}
+
+.shoulder-ul li {
+	list-style-type: none;
+}
+
+.shoulder-header {
+	color: rgb(184, 0, 0);
+	font-family: 'Special Elite', cursive;
+	text-shadow: 2px 1px black;
+	text-align: center;
+	/*font-family: 'Anton', sans-serif;*/
+
+}
+
+/* global css */
+
+.list-group-item button {
+	color: black;
+	font-weight: bolder;
+}
+
+table {
+	border-color: black;
+	border-width: 2px;
+}
+
+.results-button button {
+	padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+

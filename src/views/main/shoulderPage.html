@@ -1,0 +1,45 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12">
+			<img class="img-responsive static-img" src="src/images/gym.jpg" alt="gym">
+		</div>
+	</div>
+</div>
+
+<div class="container shoulder-body">
+	<div class="row">
+		<div class="col-xs-4 col-sm-4"></div>
+		<div class="col-xs-4 col-sm-4">
+	<h1 class="shoulder-header"> INDEX OF SHOULDER EXERCISES </h1>
+	<hr>
+	<button class="btn btn-lg btn-block shoulder-list-btn" ng-click="shoulder.listShoulders()"> LIST 'O GAINZ </button>
+	<hr>
+		<ul class="back-ul">
+			<li class="shoulder-list" ng-repeat="(id, workout) in shoulder.completeShouldersObj">
+				<button class="list-group-item" ng-click="showExercises = ! showExercises">{{workout.WORKOUT}}</button>
+				<ul ng-show="showExercises"> 
+					<li ng-repeat="(id, exercise) in workout.EXERCISES"> 
+						<table class="table table-bordered">
+							<tbody>
+								<tr><th>Exercise</th>
+									<th> Sets </th>
+									<th> # of Reps </th>
+									<th>Notes</th>
+								</tr>
+								<tr>
+									<td>{{exercise.EXERCISE}}</td>
+									<td>{{exercise.SETS}}</td>
+									<td>{{exercise.REPS}} </td>
+									<td>{{exercise.NOTES}}</td>
+								</tr>
+							</tbody>
+					 </li>
+			 	</ul>
+			 		  </table>
+		 	</li>
+		</ul>
+	</div>
+	<div class="col-xs-4 col-sm-4"></div>
+</div> 
+</div>
+

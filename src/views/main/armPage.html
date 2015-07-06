@@ -1,0 +1,59 @@
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12">
+			<img class="img-responsive static-img" src="src/images/gym.jpg" alt="gym">
+		</div>
+	</div>
+</div>
+
+<div class="container arm-body">
+	<div class="row">
+		<div class="col-xs-4 col-sm-4"></div>
+		<div class="col-xs-4 col-sm-4">
+	<h1 class="arm-header"> INDEX OF EXERCISES </h1>
+	<!-- <img src="src/images/compedgelogo.jpg"> -->
+	<hr>
+	<button class="btn btn-lg btn-block arms-list-btn" ng-click="arm.listArms()"> Arms Collection </button>
+		<hr>
+		<dl class="arm-ul">
+			<dt class="arm-list" ng-repeat="(id, workout) in arm.completeArmsObj">
+				<button class="list-group-item results-button" ng-click="showExercises = ! showExercises">{{workout.WORKOUT}}</button>
+					<dl ng-show="showExercises"> 
+						<dt ng-repeat="(id, exercise) in workout.EXERCISES"> 
+					  		<div class="container">
+					  			<div class="row">
+					  				<div class="well well-sm col-xs-8 col-sm-8">
+										<table class="table table-bordered">
+										<tbody>
+											<tr class="danger"><th>Exercise</th>
+																<th> Sets </th>
+																<th> # of Reps </th>
+																<th>Notes</th>
+											</tr>
+											<tr>
+												<td>{{exercise.EXERCISE}}</td>
+												<td>{{exercise.SETS}}</td>
+												<td>{{exercise.REPS}} </td>
+												<td>{{exercise.NOTES}}</td>
+											</tr>
+										</tbody>
+					 	</dt>
+			 		</dl>
+			 		  					</table>
+			 		  				</div>
+			 		 				 <div class="col-xs-4 col-sm-4"></div>
+			 		  			</div>
+			 		  		</div>
+		 	</dt>
+		</dl>
+	</div>
+		<div class="col-xs-4 col-sm-4"></div>
+	</div> 
+</div>
+
+
+
+
+
+
